@@ -1,0 +1,17 @@
+# Specify default playbook to execute
+#ANSIBLE_BOOTSTRAP=localhost.yml
+
+# Specify path to ansible-galaxy
+#ANSIBLE_GALAXY=/usr/bin/ansible-galaxy
+
+# Additional command line arguments for ansible-galaxy
+#ANSIBLE_GALAXY_OPTS=''
+
+# Specify path to ansible-playbook
+#ANSIBLE_PLAYBOOK=/usr/bin/ansible-playbook
+
+# Additional command line arguments for ansible-playbook
+#ANSIBLE_PLAYBOOK_OPTS=''
+
+# Specify ansible repository to clone
+#ANSIBLE_REPOSITORY=git@github.com:tkimball83/ansible-bootstrap.git

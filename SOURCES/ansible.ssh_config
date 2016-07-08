@@ -1,0 +1,7 @@
+Host github.com
+  IdentityFile /etc/pki/ansible/private/ansible.pem
+  LogLevel QUIET
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  UseRoaming no
+
