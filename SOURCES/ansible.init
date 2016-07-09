@@ -34,7 +34,7 @@ fi
 ansible_bootstrap=${ANSIBLE_BOOTSTRAP-localhost.yml}
 ansible_galaxy=${ANSIBLE_GALAXY-/usr/bin/ansible-galaxy}
 ansible_playbook=${ANSIBLE_PLAYBOOK-/usr/bin/ansible-playbook}
-ansible_repository=${ANSIBLE_REPOSITORY-git@github.com:tkimball83/ansible-bootstrap.git}
+ansible_repository=${ANSIBLE_REPOSITORY-git@github.com:linuxhq/ansible-bootstrap.git}
 
 prog=ansible
 RETVAL=0

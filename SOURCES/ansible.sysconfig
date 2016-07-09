@@ -14,4 +14,4 @@
 #ANSIBLE_PLAYBOOK_OPTS=''
 
 # Specify ansible repository to clone
-#ANSIBLE_REPOSITORY=git@github.com:tkimball83/ansible-bootstrap.git
+#ANSIBLE_REPOSITORY=git@github.com:linuxhq/ansible-bootstrap.git
