@@ -7,7 +7,7 @@ Release:	1%{?dist}
 Summary:	A custom Ansible init script
 Group:		System Environment/Daemons
 License:	BSD
-URL:		https://github.com/tkimball83/rpmbuild-%{name}
+URL:		https://github.com/linuxhq/rpmbuild-%{name}
 Source0:	ansible.init
 Source1:	ansible.ssh_config
 Source2:	ansible.sysconfig
@@ -62,11 +62,11 @@ ssh-keygen -b 4096 \
 %config(noreplace) %{_sysconfdir}/sysconfig/ansible
 
 %changelog
-* Fri Jun 17 2016 Taylor Kimball <taylor@linuxhq.org> - 0.3-1
+* Fri Jun 17 2016 Taylor Kimball <tkimball@linuxhq.org> - 0.3-1
 - Add ssh_config to ansbile_runuser account.
 
-* Thu Jun 16 2016 Taylor Kimball <taylor@linuxhq.org> - 0.2-1
+* Thu Jun 16 2016 Taylor Kimball <tkimball@linuxhq.org> - 0.2-1
 - Generate private ssh key for automated git clones.
 
-* Fri Apr 29 2016 Taylor Kimball <taylor@linuxhq.org> - 0.1-1
+* Fri Apr 29 2016 Taylor Kimball <tkimball@linuxhq.org> - 0.1-1
 - Initial build.
